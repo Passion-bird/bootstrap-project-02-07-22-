@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+.gallery-heading {
+    text-align: center;
+    
+}
+
+button {
+    margin-right: 10px;
+}
+
+.flex-column {
+    max-width: 360px;
+    
+}
+
+.navbar-brand {
+    margin-left:40px;
+}
+
+img {
+    padding-left: 15px;
+} 
+
+.img-fluid {
+	filter: grayscale(100%);
+	transition: .3s ease-in-out;
+}
+.d-flex figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+    cursor: pointer;
+}
+
+    
